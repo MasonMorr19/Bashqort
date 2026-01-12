@@ -143,7 +143,7 @@ class MemoryPalace:
         Returns:
             Created MemoryItem
         """
-        from .major_system import MajorSystemEncoder
+        from modules_major_system import MajorSystemEncoder
         
         # Check location capacity
         words_at_location = sum(
